@@ -1,0 +1,8 @@
+#!/usr/bin/zsh python
+# -- coding: utf-8 --
+
+from rolandviz.viz import PlotBasicFunction
+
+p = PlotBasicFunction()
+p.plot_sinx()
+p.plot_x2()
